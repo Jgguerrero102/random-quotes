@@ -30,11 +30,7 @@ let aFunc = function() {
 aFunc()
 aFunc = undefined
 
-let arrowFunction = () => Math.random()
-console.log(arrowFunction())
-let arrowFunction2 = () => ({ a: 5 })
-console.log(arrowFunction2())
-let arrowFunction2 = () => { 
+let arrowFunction3 = () => { 
     let ranNumber = Math.random ()
     return { a: ranNumber }
 }
