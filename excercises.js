@@ -43,6 +43,7 @@ let arrays = [[1,2,3], [4,5], [6]];
  export function flattening(inputList) {
     return inputList
  }
+flattening(arrays)
 
 console.log(myFunction())
 console.log(myFunc())
