@@ -49,7 +49,7 @@ console.log(flattening(arrays))
 export function loop (value, test, update, body){
     while (test(value)) {
         value = body(value)
-        update(value)
+        value = update(value)
     }
 }
 
