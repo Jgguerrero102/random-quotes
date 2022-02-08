@@ -20,5 +20,11 @@ function myHigherOrderFunction(parameterFunction) {
     return parameterFunction()
 }
 
+function repeat(n, action) {
+    for (let i = 0; i < n; i++) {
+        
+    }
+}
+
 console.log(myFunction())
 console.log(myFunc())
