@@ -41,13 +41,17 @@ for (let item of arrayValues) {
     console.log(item)
 }
 
-arrayValues.forEach((item => console.log(item)))
+arrayValues.forEach((item) => console.log(item))
+let sum = arrayValues.reduce((previousValue, currentValue) => previousValue + currentValue)
+console.log ( "The sum is " + sum)
 
 // 3 - 1 flattening(list)
 //Use the reduce method in combination with the concat method to “flatten” an array of arrays into a single array that has all the elements of the original arrays.
 let arrays = [[1, 2, 3], [4, 5], [6]];
 // Your code here.
-export function flattening(list){
 
+export function flattening(list){
+    list.reduce((previousValue, currentValue) => previousValue.concat(currentValue))
 }
 // → [1, 2, 3, 4, 5, 6]
+console.log(flattening(arrays))
