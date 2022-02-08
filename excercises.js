@@ -12,7 +12,7 @@ let myFunc = function () {
 let myFuncArrow = () => a + 1
 
 // Arrow Function (Return value directly)
-let myFuncArrow = () => { let a = 1; return a }
+let myFuncArrow2 = () => { a: 5 }
 
 
 
