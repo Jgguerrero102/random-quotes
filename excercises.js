@@ -79,3 +79,19 @@ loop(0, n => n < 3, n => n > n + 1, console.log);
 
 //Implement two versions of every (everySome and everyLoop) as a function that takes an array and a predicate function as parameters. Write two versions, one using a loop and one using the some method.
 
+function everyLoop(array, test) 
+{
+  // Your code here.
+}
+
+function everySome(array, test) 
+{
+// Your code here.
+} 
+
+console.log(everyLoop([1, 3, 5], n => n < 10));
+// → true
+console.log(everyLoop([2, 4, 16], n => n < 10));
+// → false
+console.log(everyLoop([], n => n < 10));
+// → true
