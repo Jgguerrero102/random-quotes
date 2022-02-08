@@ -47,7 +47,10 @@ let arrays = [[1, 2, 3], [4, 5], [6]];
 console.log(flattening(arrays))
 
 export function loop (value, test, update){
-
+    while (test(value)) {
+        value = body(value)
+        update(value)
+    }
 }
 
 loop(3, n=> n > 0, n > n - 1, console.log)
