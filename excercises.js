@@ -8,8 +8,10 @@ let myFunc = function () {
     return 1;
 }
 
-// Arrow Function
+// Arrow Function (Return value directly)
 let myFuncArrow = () => 1
+
+
 
 function myHigherOrderFunction() {
 
