@@ -31,15 +31,16 @@ function repeat(n, action) {
 repeat(3, console.log);
 
 //Use the reduce method in combination with the concat method to “flatten” an array of arrays into a single array that has all the elements of the original arrays.
-let arrays = [[1,2,3], [4,5], [6]]
-
+let arrays = [[1,2,3], [4,5], [6]];
+// Your code here.
+// → [1, 2, 3, 4, 5, 6]
+let arrays = [[1,2,3], [4,5], [6]];
 //Your code here
+// → [1, 2, 3, 4, 5, 6]
 
 
-//Your code here
 
-
-function flattening(inputList)
+ export function flattening(inputList) 
 
 console.log(myFunction())
 console.log(myFunc())
