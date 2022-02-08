@@ -46,7 +46,7 @@ let arrays = [[1, 2, 3], [4, 5], [6]];
  }
 console.log(flattening(arrays))
 
-export function loop (value, test, update){
+export function loop (value, test, update, body){
     while (test(value)) {
         value = body(value)
         update(value)
