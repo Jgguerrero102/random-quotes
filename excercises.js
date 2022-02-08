@@ -22,9 +22,11 @@ function myHigherOrderFunction(parameterFunction) {
 
 function repeat(n, action) {
     for (let i = 0; i < n; i++) {
-        
+
     }
 }
+
+repeat(3, console.log);
 
 console.log(myFunction())
 console.log(myFunc())
