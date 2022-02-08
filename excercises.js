@@ -8,5 +8,9 @@ let myFunc = function () {
     return 1;
 }
 
+function myHigherOrderFunction() {
+    
+}
+
 console.log(myFunction())
 console.log(myFunc())
