@@ -40,7 +40,7 @@ let arrowFunction2 = () => {
 }
 //console.log(arrowFunction3())
 
-let arrayNumbers = [1, 2, 3, 4]
+let arrayValues = [1, 2, 3, 4]
 for (let item of arrayValues) {
     console.log(item)
 }
@@ -52,6 +52,6 @@ arrayValues.forEach((item => console.log(item)))
 let arrays = [[1, 2, 3], [4, 5], [6]];
 // Your code here.
 export function flattening(list){
-    
+
 }
 // → [1, 2, 3, 4, 5, 6]
