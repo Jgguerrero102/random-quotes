@@ -40,7 +40,9 @@ let arrays = [[1,2,3], [4,5], [6]];
 
 
 
- export function flattening(inputList) 
+ export function flattening(inputList) {
+    return inputList
+ }
 
 console.log(myFunction())
 console.log(myFunc())
