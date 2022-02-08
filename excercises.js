@@ -10,9 +10,10 @@ let myFunc = function () {
 
 // Arrow Function (Return value directly)
 let myFuncArrow = a => a + 1
-
+console.log(myFuncArrow(110))
 // Arrow Function (Return value directly)
 let myFuncArrow2 = () => {return { a: 5 } }
+console.log(myFuncArrow2())
 
 
 
