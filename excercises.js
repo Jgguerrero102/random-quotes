@@ -7,3 +7,6 @@ function aFunction(){
 
 let functionReference = aFunction
 
+function myHigherOrderFunction(functionParameter) {
+    return functionParameter()
+}
