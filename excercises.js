@@ -28,7 +28,8 @@ function repeat(n, action) {
 
 repeat(3, console.log);
 
-function flattening()
+//
+function flattening(inputList)
 
 console.log(myFunction())
 console.log(myFunc())
