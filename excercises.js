@@ -10,3 +10,7 @@ let functionReference = aFunction
 function myHigherOrderFunction(functionParameter) {
     return functionParameter()
 }
+
+console.log(aFunction())
+console.log(functionReference())
+console.log(myHigherOrderFunction(functionReference))
