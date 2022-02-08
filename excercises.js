@@ -4,7 +4,7 @@ function myFunction() {
     return 1;
 }
 
-let myFunc = function myFunction() {
+let myFunc = function () {
     return 1;
 }
 
