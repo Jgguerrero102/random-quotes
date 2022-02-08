@@ -44,7 +44,16 @@ let arrays = [[1, 2, 3], [4, 5], [6]];
  export function flattening(inputList) {
     return inputList.reduce((ae1,ae2)=> ae1.concat(ae2))
  }
-flattening(arrays)
+console.log(flattening(arrays))
+
+export function loop (value, test, update){
+
+}
+
+loop(3, n=> n > 0, n > n - 1, console.log)
+
+//**Write a higher-order function loop that provides something like a for loop statement. It takes a value, a test function, an update function, and a body function. Each iteration, it first runs the test function on the current loop value and stops if that returns false. Then it calls the body function, giving it the current value. Finally, it calls the update function to create a new value and starts from the beginning.
+// (Links to an external site.)When defining the function, you can use a regular loop to do the actual looping. */
 
 console.log(myFunction())
 console.log(myFunc())
