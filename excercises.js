@@ -8,8 +8,11 @@ let myFunc = function () {
     return 1;
 }
 
+// Arrow Function
+
+
 function myHigherOrderFunction() {
-    
+
 }
 
 console.log(myFunction())
