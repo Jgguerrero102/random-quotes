@@ -9,10 +9,10 @@ let myFunc = function () {
 }
 
 // Arrow Function (Return value directly)
-let myFuncArrow = () => a + 1
+let myFuncArrow = a => a + 1
 
 // Arrow Function (Return value directly)
-let myFuncArrow2 = () => {return { a: 5 } }
+let myFuncArrow2 = () => {return ({ a: 5 }) }
 
 
 
