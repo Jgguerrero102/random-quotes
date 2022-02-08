@@ -13,6 +13,11 @@ function myHigherOrderFunction(functionParameter) {
     }
 }
 
+let arrayValues = [1, 2, 3, 4]
+for (let item of arrayValues){
+    console.log(item)
+}
+
 //console.log(aFunction())
 //console.log(functionReference())
 console.log(myHigherOrderFunction(functionReference, 3))
