@@ -11,6 +11,9 @@ let myFunc = function () {
 // Arrow Function (Return value directly)
 let myFuncArrow = () => 1
 
+// Arrow Function (Return value directly)
+let myFuncArrow = () => { let a = 1; return a }
+
 
 
 function myHigherOrderFunction() {
