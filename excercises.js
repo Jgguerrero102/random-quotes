@@ -82,6 +82,11 @@ loop(0, n => n < 3, n => n > n + 1, console.log);
 function everyLoop(array, test) 
 {
   // Your code here.
+  let returnValue = true
+  for(let item of array) {
+      returnValue = returnValue && test(item)
+  }
+  return returnValue
 }
 
 function everySome(array, test) 
