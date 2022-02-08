@@ -9,7 +9,7 @@ let myFunc = function () {
 }
 
 // Arrow Function
-
+let myFuncArrow = () => 1
 
 function myHigherOrderFunction() {
 
