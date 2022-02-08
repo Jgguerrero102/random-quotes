@@ -16,7 +16,7 @@ let myFuncArrow2 = () => {return { a: 5 } }
 
 
 
-function myHigherOrderFunction() {
+function myHigherOrderFunction(parameterFunction) {
     return parameterFunction()
 }
 
